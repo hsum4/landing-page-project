@@ -9,3 +9,28 @@ body {
     color: white;
     display: flex;
 }
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB; 
+    display: flex;
+    padding: 0;
+    gap: 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
