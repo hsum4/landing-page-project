@@ -6,7 +6,7 @@ body {
 
 .header, .hero, .footer{
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     display: flex;
 }
 
@@ -17,20 +17,63 @@ body {
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 900;
+}
+
+.hero {
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-hero {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 30px;
+    border-radius: 8px;
+  }
+
+#main-hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#signup {
+    font-size: 16px;
+    font-weight: 900;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #3882F6;
+}
+
+.right-hero {
+    min-height: 250px;
+    min-width: 500px;
+    background-color: #727272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     list-style: none;
     font-size: 18px;
-    color: #E5E7EB; 
     display: flex;
     padding: 0;
     gap: 24px;
 }
 
 a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
