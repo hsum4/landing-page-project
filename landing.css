@@ -53,7 +53,7 @@ button {
     align-self: flex-start;
     background-color: #3882F6;
     color: #F9FAF8;
-    border: 1px solid #3882F6;
+    border: 2px solid #3882F6;
 }
 
 .right-hero {
@@ -139,4 +139,40 @@ a {
     font-weight: 900;
     align-self: self-end;
     width: 44%;
+}
+
+.content-three {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    min-height: 120px;
+    min-width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.left-bluebox {
+    display: flex;
+    flex-direction: column;
+}
+
+#upper {
+    font-size: 21px;
+    font-weight: 900;
+}
+
+#signup2 {
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
 }
